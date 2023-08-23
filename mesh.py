@@ -2,7 +2,7 @@ import os
 import numpy as np
 try:
     import cynetworkx as netx
-except ImportError:
+except ModuleNotFoundError:
     import networkx as netx
 import matplotlib.pyplot as plt
 from functools import partial
